@@ -3,3 +3,49 @@ body {
   height: 100%;
   margin: 0;
 }
+/* Add these styles to your existing CSS file */
+
+/* Center the header */
+header {
+  text-align: center;
+}
+
+/* Center the image */
+#featured-property figure {
+  text-align: center;
+}
+
+/* Jazz up the navigation links */
+header nav {
+  text-align: center;
+}
+
+header nav a {
+  padding: 10px;
+  background-color: grey;
+}
+
+/* Update the image caption */
+#featured-property figcaption {
+  font-size: smaller;
+  text-align: center;
+}
+
+/* Update the text block */
+#featured-property p {
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* Make the #details section horizontal */
+#details {
+  overflow: hidden;
+}
+
+#details div {
+  float: left;
+  width: 25%;
+  background-color: lightgrey;
+  text-align: center;
+}
